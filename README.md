@@ -33,7 +33,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 
 <figure>
   <img src="Vzla_Salto_Angel_9.jpg" alt="Trulli" style="width:100%">
-  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+  <figcaption>Fig.1 - Salto Angel, Venezuela.</figcaption>
 </figure>
 ### Jekyll Themes
 
