@@ -30,6 +30,8 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 
 -->
 
+I am a venezuelan/colombian Physicist who, after 33 years in the academy, am making a sift transition to
+the fantastic world of Data Science.
 
 <figure>
   <img src="Vzla_Salto_Angel_9.jpg" alt="Angel Falls, Venezuela" style="width:100%">
