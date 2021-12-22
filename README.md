@@ -45,7 +45,7 @@ Well, I have just began, and did not think to much about content, while I do, I 
 </figure>
 
 <figure>
-  <img src="Venezuela_archipielago-los-roques-1.jCaracaspg" alt="Archipielago Los Roques, Venezuela" style="width:100%">
+  <img src="Venezuela_archipielago-los-roques-1.jpg" alt="Archipielago Los Roques, Venezuela" style="width:100%">
   <figcaption>Fig.1 - Salto Angel, Venezuela.</figcaption>
 </figure>
 
