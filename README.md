@@ -35,7 +35,7 @@ the fantastic world of Data Science.
 
 As you can see, in the headings, this is my first GutHub web page, to create it I just closely followed the instructions given in [this tutorial](https://www.youtube.com/watch?v=BA_c3bGQXlQ).
 
-Needless to say, Physics is great fun, and so it is Data Science. Since the latter is so fashionable right now I will tell you that if you want to join the field, you will need to **seriously** study statistics, linear algebra and calculus. You will also will need lots and lots of coding in Python, R, SQL.
+Needless to say, Physics is great fun, and so it is Data Science. Since the latter is so fashionable right now I will tell you that if you want to join the field, you will need to **seriously** study statistics, linear algebra and calculus. You will also will need lots and lots of coding in [Python](https://www.python.org/), R, SQL.
 
 Well, I have just began, and did not think to much about content, while I do, I present you with a couple of images of Venezuela 
 
