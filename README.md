@@ -45,7 +45,7 @@ Well, I have just began, and did not think to much about content, while I do, I 
 </figure>
 
 <figure>
-  <img src="Venezuela_Caracas.jpg" alt="Caracas, Venezuela" style="width:100%">
+  <img src="Venezuela_archipielago-los-roques-1.jpg" alt="Archipielago Los Roques, Venezuela" style="width:100%">
   <figcaption>Fig.1 - Salto Angel, Venezuela.</figcaption>
 </figure>
 
@@ -53,9 +53,11 @@ Well, I have just began, and did not think to much about content, while I do, I 
   <img src="Vzla_Salto_Angel_9.jpg" alt="Angel Falls, Venezuela" style="width:100%">
   <figcaption>Fig.1 - Salto Angel, Venezuela.</figcaption>
 </figure>
-### Jekyll Themes
+
+<-- ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mario-i-caicedo-ai/Mario_I_Caicedo_1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+-->
 
 ### Support or Contact
 
