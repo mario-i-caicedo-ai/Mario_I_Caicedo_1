@@ -30,6 +30,11 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 
 -->
 
+
+<figure>
+  <img src="pic_trulli.jpg" alt="Trulli" style="width:100%">
+  <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+</figure>
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mario-i-caicedo-ai/Mario_I_Caicedo_1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
