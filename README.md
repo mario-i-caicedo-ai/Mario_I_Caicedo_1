@@ -41,17 +41,17 @@ Well, I have just began, and did not think to much about content, while I do, I 
 
 <figure>
   <img src="Venezuela_Caracas.jpg" alt="Caracas, Venezuela" style="width:100%">
-  <figcaption>Fig.1 - Salto Angel, Venezuela.</figcaption>
+  <figcaption>Fig.1 - Caracas, Venezuela.</figcaption>
 </figure>
 
 <figure>
   <img src="Venezuela_archipielago-los-roques-1.jpg" alt="Archipielago Los Roques, Venezuela" style="width:100%">
-  <figcaption>Fig.1 - Salto Angel, Venezuela.</figcaption>
+  <figcaption>Fig.2 - Archipiélago Los Roques, Venezuela.</figcaption>
 </figure>
 
 <figure>
   <img src="Vzla_Salto_Angel_9.jpg" alt="Angel Falls, Venezuela" style="width:100%">
-  <figcaption>Fig.1 - Salto Angel, Venezuela.</figcaption>
+  <figcaption>Fig.3 - Salto Angel, Venezuela.</figcaption>
 </figure>
 
 <!-- ### Jekyll Themes
