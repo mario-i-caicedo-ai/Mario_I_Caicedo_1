@@ -30,7 +30,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 
 -->
 
-I am a venezuelan/colombian Physicist who, after 33 years in the <a href="http://www.usb.ve/">academy at Universidad Simón Bolívar</a>, am making a soft transition to
+I am a venezuelan/colombian Physicist who, after 33 years in the academy at [Unibersidad Simón Bolívar](http://www.usb.ve/), am making a soft transition to
 the fantastic world of Data Science.
 
 As you can see, in the headings, this is my first GutHub web page, to create it I just cloely followed the instructions given in [this tutorial](https://www.youtube.com/watch?v=BA_c3bGQXlQ)
