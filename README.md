@@ -30,7 +30,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 
 -->
 
-I am a venezuelan/colombian Physicist who, after 33 years in the academy, am making a sift transition to
+I am a venezuelan/colombian Physicist who, after 33 years in the <a href="http://www.usb.ve/">academy at Universidad Simón Bolívar</a>, am making a soft transition to
 the fantastic world of Data Science.
 
 <figure>
