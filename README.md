@@ -33,7 +33,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 I am a venezuelan/colombian Physicist who, after 33 years in the <a href="http://www.usb.ve/">academy at Universidad Simón Bolívar</a>, am making a soft transition to
 the fantastic world of Data Science.
 
-As you can see, in the headings, this is my first GutHub web page, to create it I just cloely followed the instructions given in <a href=''https://www.youtube.com/watch?v=BA_c3bGQXlQ''>this Youtube Tutorial</a>
+As you can see, in the headings, this is my first GutHub web page, to create it I just cloely followed the instructions given in [this excellent Youtube tutorail](https://www.youtube.com/watch?v=BA_c3bGQXlQ'')
 
 <figure>
   <img src="Vzla_Salto_Angel_9.jpg" alt="Angel Falls, Venezuela" style="width:100%">
