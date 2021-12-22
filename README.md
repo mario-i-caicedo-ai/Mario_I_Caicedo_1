@@ -30,12 +30,12 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 
 -->
 
-I am a venezuelan/colombian [Theoretical Physicist](https://scholar.google.co.ve/citations?user=ybqui-EAAAAJ&hl=en){:target="_blank" rel="noopener"} who, after 33 years in the academy at [Universidad Simón Bolívar](http://www.usb.ve/), am making a soft transition to
+I am a venezuelan/colombian [Theoretical Physicist](https://scholar.google.co.ve/citations?user=ybqui-EAAAAJ&hl=en){:target="_blank" rel="noopener"} who, after 33 years in the academy at [Universidad Simón Bolívar](http://www.usb.ve/){:target="_blank" rel="noopener"}, am making a soft transition to
 the fantastic world of Data Science.
 
-As you can see, in the headings, this is my first GutHub web page, to create it I just closely followed the instructions given in [this tutorial](https://www.youtube.com/watch?v=BA_c3bGQXlQ).
+As you can see, in the headings, this is my first GutHub web page, to create it I just closely followed the instructions given in [this tutorial](https://www.youtube.com/watch?v=BA_c3bGQXlQ){:target="_blank" rel="noopener"}.
 
-Needless to say, Physics is great fun, and so it is Data Science. Since the latter is so fashionable right now I will tell you that if you want to join the field, you will need to **seriously** study statistics, linear algebra and calculus. You will also will need lots and lots of coding in [Python](https://www.python.org/), [R](https://www.r-project.org/); you will also need to learn about SQL and NonSQL databases, for the former I strongly recommend [PostgreSQL](https://www.postgresql.org/) and for the latter the open source version of [MongoDB](https://www.mongodb.com/try/download/community)
+Needless to say, Physics is great fun, and so it is Data Science. Since the latter is so fashionable right now I will tell you that if you want to join the field, you will need to **seriously** study statistics, linear algebra and calculus. You will also will need lots and lots of coding in [Python](https://www.python.org/){:target="_blank" rel="noopener"}, [R](https://www.r-project.org/){:target="_blank" rel="noopener"}; you will also need to learn about SQL and NonSQL databases, for the former I strongly recommend [PostgreSQL](https://www.postgresql.org/){:target="_blank" rel="noopener"} and for the latter the open source version of [MongoDB](https://www.mongodb.com/try/download/community){:target="_blank" rel="noopener"}
 
 Well, I have just began, and did not think to much about content, while I do, I present you with a couple of images of Venezuela 
 
