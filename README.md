@@ -40,6 +40,16 @@ Needless to say, Physics is great fun, and so it is Data Science. Since the latt
 Well, I have just began, and did not think to much about content, while I do, I present you with a couple of images of Venezuela 
 
 <figure>
+  <img src="Venezuela_Caracas.jpg" alt="Caracas, Venezuela" style="width:100%">
+  <figcaption>Fig.1 - Salto Angel, Venezuela.</figcaption>
+</figure>
+
+<figure>
+  <img src="Venezuela_Caracas.jpg" alt="Caracas, Venezuela" style="width:100%">
+  <figcaption>Fig.1 - Salto Angel, Venezuela.</figcaption>
+</figure>
+
+<figure>
   <img src="Vzla_Salto_Angel_9.jpg" alt="Angel Falls, Venezuela" style="width:100%">
   <figcaption>Fig.1 - Salto Angel, Venezuela.</figcaption>
 </figure>
