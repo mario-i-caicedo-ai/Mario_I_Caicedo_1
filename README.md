@@ -47,22 +47,28 @@ Well, I have just began, and did not think to much about content, while I do, I 
 
 <figure>
   <img src="AA_FUN_00.jpg" alt="Professor Mario" style="width:100%">
-  <figcaption>Fig.1 - Yours truly having fun while discussing mathematical physics.</figcaption>
+  <figcaption>Fig.1 - Yours truly having fun while discussing mathematical physics at USB.</figcaption>
 </figure>
 
 <figure>
+  <img src="Mario_Beach_BIG.jpg" alt="Professor Mario" style="width:100%">
+  <figcaption>Fig.2 - Venezuelans love the beach and I'm not the exception.</figcaption>
+</figure>
+
+
+<figure>
   <img src="Venezuela_Caracas.jpg" alt="Caracas, Venezuela" style="width:100%">
-  <figcaption>Fig.1 - Caracas, Venezuela.</figcaption>
+  <figcaption>Fig.3 - Caracas, Venezuela.</figcaption>
 </figure>
 
 <figure>
   <img src="Venezuela_archipielago-los-roques-1.jpg" alt="Archipielago Los Roques, Venezuela" style="width:100%">
-  <figcaption>Fig.2 - Archipiélago Los Roques, Venezuela.</figcaption>
+  <figcaption>Fig.4 - Archipiélago Los Roques, Venezuela.</figcaption>
 </figure>
 
 <figure>
   <img src="Vzla_Salto_Angel_9.jpg" alt="Angel Falls, Venezuela" style="width:100%">
-  <figcaption>Fig.3 - Salto Angel, Venezuela.</figcaption>
+  <figcaption>Fig.5 - Salto Angel, Venezuela.</figcaption>
 </figure>
 
 <!-- ### Jekyll Themes
