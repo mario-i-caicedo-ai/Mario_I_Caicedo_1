@@ -47,7 +47,9 @@ Well, I have just began, and did not think to much about content, while I do, I 
 
 
 <p align="center">
+  <figure>
   <img src="AA_FUN_00.jpg" alt="Professor Mario" style="width:40%">
+  <figcaption>Theoretical Physics is Fun.</figcaption>
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img src="Mario_Beach_BIG.jpg" alt="Professor Mario" style="width:30%">
 </p>
