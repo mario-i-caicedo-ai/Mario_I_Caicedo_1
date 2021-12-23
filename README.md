@@ -30,7 +30,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 
 -->
 
-I am a venezuelan/colombian [Theoretical Physicist](https://scholar.google.co.ve/citations?user=ybqui-EAAAAJ&hl=en){:target="_blank" rel="noopener"} who, after 33 years in the academy at [Universidad Simón Bolívar](http://www.usb.ve/){:target="_blank" rel="noopener"}, am making a soft transition to
+I am a venezuelan/colombian [Theoretical Physicist](https://scholar.google.co.ve/citations?user=ybqui-EAAAAJ&hl=en){:target="_blank" rel="noopener"} who, after 33 years in the academy at [Universidad Simón Bolívar](http://www.usb.ve/){:target="_blank" rel="noopener"} (USB), am making a soft transition to
 the fantastic world of Data Science.
 
 As you can see, in the headings, this is my first GutHub web page, to create it I just closely followed the instructions given in [this tutorial](https://www.youtube.com/watch?v=BA_c3bGQXlQ){:target="_blank" rel="noopener"}, I also benefited from this nice [article](https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1){:target="_blank" rel="noopener"}, finally, I wanted the links to open in new tabs and found this GitHub specific [solution](https://stackoverflow.com/questions/41915571/open-link-in-new-tab-with-github-markdown-using-target-blank){:target="_blank" rel="noopener"} in everyone's friend stack**overflow**
@@ -51,28 +51,28 @@ Well, I have just began, and did not think to much about content, while I do, I 
 </figure>
 
 <figure>
-  <img src="Mario_Beach_BIG.jpg" alt="Professor Mario" style="width:100%">
+  <img src="Mario_Beach_BIG.jpg" alt="Professor Mario" style="width:70%">
   <figcaption>Fig.2 - Venezuelans love the beach and I'm not the exception.</figcaption>
 </figure>
 
 <figure>
-  <img src="Venezuela_Caracas.jpg" alt="Caracas, Venezuela" style="width:100%">
-  <figcaption>Fig.3 - Caracas, Venezuela.</figcaption>
-</figure>Venezuela_Vista_panorámica,_Universidad_Simón_Bolívar.jpg
+  <img src="Venezuela_Vista_panorámica,_Universidad_Simón_Bolívar.jpg" alt="USB. Caracas, Venezuela" style="width:100%">
+  <figcaption>Fig.3 - The gorgeous campus of USB.</figcaption>
+</figure>
 
 <figure>
   <img src="Venezuela_Caracas.jpg" alt="Caracas, Venezuela" style="width:100%">
-  <figcaption>Fig.3 - Caracas, Venezuela.</figcaption>
+  <figcaption>Fig.4 - Caracas, Venezuela.</figcaption>
 </figure>
 
 <figure>
   <img src="Venezuela_archipielago-los-roques-1.jpg" alt="Archipielago Los Roques, Venezuela" style="width:100%">
-  <figcaption>Fig.4 - Archipiélago Los Roques, Venezuela.</figcaption>
+  <figcaption>Fig.5 - Archipiélago Los Roques, Venezuela.</figcaption>
 </figure>
 
 <figure>
   <img src="Vzla_Salto_Angel_9.jpg" alt="Angel Falls, Venezuela" style="width:100%">
-  <figcaption>Fig.5 - Salto Angel, Venezuela.</figcaption>
+  <figcaption>Fig.6 - Salto Angel, Venezuela.</figcaption>
 </figure>
 
 <!-- ### Jekyll Themes
