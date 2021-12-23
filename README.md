@@ -46,13 +46,9 @@ Well, I have just began, and did not think to much about content, while I do, I 
 * [Introducción al Aprendizaje Automático](https://github.com/mario-i-caicedo-ai/Aprendizaje-Automatico-Machine-Learning-){:target="_blank" rel="noopener"}
 
 <p align="center">
-  <figure>
   <img src="AA_FUN_00.jpg" alt="Professor Mario" style="width:35%">
-  </figure>
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <figure>
   <img src="AA_FUN_00.jpg" alt="Professor Mario" style="width:35%">
-</figure>
 </p>
 
 <figure>
