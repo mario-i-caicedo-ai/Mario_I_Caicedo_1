@@ -47,9 +47,9 @@ Well, I have just began, and did not think to much about content, while I do, I 
 
 
 <p align="center">
-  <img src="AA_FUN_00.jpg" alt="Professor Mario 1" style="width:40%">
+  <img src="pics/AA_FUN_00.jpg" alt="Professor Mario 1" style="width:40%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="Mario_Beach_BIG.jpg" alt="Professor Mario 2" style="width:30%">
+  <img src="pics/Mario_Beach_BIG.jpg" alt="Professor Mario 2" style="width:30%">
 </p>
 
 <figure>
