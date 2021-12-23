@@ -47,43 +47,29 @@ Well, I have just began, and did not think to much about content, while I do, I 
 
 
 <p align="center">
-  <figure>
-  <img src="AA_FUN_00.jpg" alt="Professor Mario" style="width:40%">
-  <figcaption>Theoretical Physics is Fun.</figcaption>
+  <img src="AA_FUN_00.jpg" alt="Professor Mario 1" style="width:40%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="Mario_Beach_BIG.jpg" alt="Professor Mario" style="width:30%">
+  <img src="Mario_Beach_BIG.jpg" alt="Professor Mario 2" style="width:30%">
 </p>
 
 <figure>
-  <img src="AA_FUN_00.jpg" alt="Professor Mario" style="width:100%">
-  <figcaption>Fig.1 - Yours truly having fun while discussing mathematical physics at USB. Venezuelans love the beach and I'm not the exception.</figcaption>
-</figure>
-
-<figure>
-  <p align="center">
-  <img src="Mario_Beach_BIG.jpg" alt="Professor Mario" style="width:70%">
-  </p>
-  <figcaption>Fig.2 - Venezuelans love the beach and I'm not the exception.</figcaption>
-</figure>
-
-<figure>
   <img src="Venezuela_Vista_panorámica,_Universidad_Simón_Bolívar.jpg" alt="USB. Caracas, Venezuela" style="width:100%">
-  <figcaption>Fig.3 - The gorgeous campus of USB.</figcaption>
+  <figcaption>The gorgeous campus of USB.</figcaption>
 </figure>
 
 <figure>
   <img src="Venezuela_Caracas.jpg" alt="Caracas, Venezuela" style="width:100%">
-  <figcaption>Fig.4 - Caracas, Venezuela.</figcaption>
+  <figcaption>Caracas, Venezuela.</figcaption>
 </figure>
 
 <figure>
   <img src="Venezuela_archipielago-los-roques-1.jpg" alt="Archipielago Los Roques, Venezuela" style="width:100%">
-  <figcaption>Fig.5 - Archipiélago Los Roques, Venezuela.</figcaption>
+  <figcaption>Archipiélago Los Roques, Venezuela.</figcaption>
 </figure>
 
 <figure>
   <img src="Vzla_Salto_Angel_9.jpg" alt="Angel Falls, Venezuela" style="width:100%">
-  <figcaption>Fig.6 - Salto Angel, Venezuela.</figcaption>
+  <figcaption>Salto Angel, Venezuela.</figcaption>
 </figure>
 
 <!-- ### Jekyll Themes
