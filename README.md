@@ -45,15 +45,18 @@ Well, I have just began, and did not think to much about content, while I do, I 
 
 * [Introducción al Aprendizaje Automático](https://github.com/mario-i-caicedo-ai/Aprendizaje-Automatico-Machine-Learning-){:target="_blank" rel="noopener"}
 
+<figure>
 <p align="center">
   <img src="AA_FUN_00.jpg" alt="Professor Mario" style="width:35%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="AA_FUN_00.jpg" alt="Professor Mario" style="width:35%">
+  <img src="Mario_Beach_BIG.jpg" alt="Professor Mario" style="width:35%">
 </p>
+  <figcaption>Fig.1 - Left, Yours truly having fun while discussing mathematical physics at USB.</figcaption>
+  </figure>
 
 <figure>
   <img src="AA_FUN_00.jpg" alt="Professor Mario" style="width:100%">
-  <figcaption>Fig.1 - Yours truly having fun while discussing mathematical physics at USB.</figcaption>
+  <figcaption>Fig.1 - Yours truly having fun while discussing mathematical physics at USB. Venezuelans love the beach and I'm not the exception.</figcaption>
 </figure>
 
 <figure>
