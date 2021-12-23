@@ -53,22 +53,22 @@ Well, I have just began, and did not think to much about content, while I do, I 
 </p>
 
 <figure>
-  <img src="Venezuela_Vista_panorámica,_Universidad_Simón_Bolívar.jpg" alt="USB. Caracas, Venezuela" style="width:100%">
+  <img src="pics/Venezuela_Vista_panorámica,_Universidad_Simón_Bolívar.jpg" alt="USB. Caracas, Venezuela" style="width:100%">
   <figcaption>The gorgeous campus of USB.</figcaption>
 </figure>
 
 <figure>
-  <img src="Venezuela_Caracas.jpg" alt="Caracas, Venezuela" style="width:100%">
+  <img src="pics/Venezuela_Caracas.jpg" alt="Caracas, Venezuela" style="width:100%">
   <figcaption>Caracas, Venezuela.</figcaption>
 </figure>
 
 <figure>
-  <img src="Venezuela_archipielago-los-roques-1.jpg" alt="Archipielago Los Roques, Venezuela" style="width:100%">
+  <img src="pics/Venezuela_archipielago-los-roques-1.jpg" alt="Archipielago Los Roques, Venezuela" style="width:100%">
   <figcaption>Archipiélago Los Roques, Venezuela.</figcaption>
 </figure>
 
 <figure>
-  <img src="Vzla_Salto_Angel_9.jpg" alt="Angel Falls, Venezuela" style="width:100%">
+  <img src="pics/Vzla_Salto_Angel_9.jpg" alt="Angel Falls, Venezuela" style="width:100%">
   <figcaption>Salto Angel, Venezuela.</figcaption>
 </figure>
 
