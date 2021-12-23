@@ -47,13 +47,11 @@ Well, I have just began, and did not think to much about content, while I do, I 
 
 <p align="center">
   <figure>
-  <img src="AA_FUN_00.jpg" alt="Professor Mario" style="width:45%">
-  <figcaption>Fig.1 - Yours truly having fun while discussing mathematical physics at USB.</figcaption>
-</figure>
+  <img src="AA_FUN_00.jpg" alt="Professor Mario" style="width:35%">
+  </figure>
 &nbsp; &nbsp; &nbsp; &nbsp;
   <figure>
-  <img src="AA_FUN_00.jpg" alt="Professor Mario" style="width:45%">
-  <figcaption>Fig.1 - Yours truly having fun while discussing mathematical physics at USB.</figcaption>
+  <img src="AA_FUN_00.jpg" alt="Professor Mario" style="width:35%">
 </figure>
 </p>
 
