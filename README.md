@@ -68,7 +68,7 @@ Well, I have just began, and did not think to much about content, while I do, I 
 </figure>
 
 <figure>
-  <img src="pics/Vzla_Salto_Angel_9.jpg" alt="Angel Falls, Venezuela" style="width:100%">
+  <img src="pics/Vzla_Salto_Angel_1.jpg" alt="Angel Falls, Venezuela" style="width:100%">
   <figcaption>Salto Angel, Venezuela.</figcaption>
 </figure>
 
