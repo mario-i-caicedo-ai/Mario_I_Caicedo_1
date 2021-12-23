@@ -55,6 +55,10 @@ Well, I have just began, and did not think to much about content, while I do, I 
   <figcaption>Fig.2 - Venezuelans love the beach and I'm not the exception.</figcaption>
 </figure>
 
+<figure>
+  <img src="Venezuela_Caracas.jpg" alt="Caracas, Venezuela" style="width:100%">
+  <figcaption>Fig.3 - Caracas, Venezuela.</figcaption>
+</figure>Venezuela_Vista_panorámica,_Universidad_Simón_Bolívar.jpg
 
 <figure>
   <img src="Venezuela_Caracas.jpg" alt="Caracas, Venezuela" style="width:100%">
