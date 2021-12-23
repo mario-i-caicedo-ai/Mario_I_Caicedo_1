@@ -51,7 +51,9 @@ Well, I have just began, and did not think to much about content, while I do, I 
 </figure>
 
 <figure>
+  <p align="center">
   <img src="Mario_Beach_BIG.jpg" alt="Professor Mario" style="width:70%">
+  </p>
   <figcaption>Fig.2 - Venezuelans love the beach and I'm not the exception.</figcaption>
 </figure>
 
