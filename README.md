@@ -33,17 +33,17 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 I am a venezuelan/colombian [Theoretical Physicist](https://scholar.google.co.ve/citations?user=ybqui-EAAAAJ&hl=en) who, after 33 years in the academy at [Universidad Simón Bolívar](http://www.usb.ve/) (USB), am making a soft transition to
 the fantastic world of Data Science.
 
-As you can see, in the headings, this is my first GutHub web page, to create it I just closely followed the instructions given in [this tutorial](https://www.youtube.com/watch?v=BA_c3bGQXlQ){:target="_blank" rel="noopener"}, I also benefited from this nice [article](https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1), finally, I wanted the links to open in new tabs and found this GitHub specific [solution](https://stackoverflow.com/questions/41915571/open-link-in-new-tab-with-github-markdown-using-target-blank){:target="_blank" rel="noopener"} in everyone's friend stack**overflow**
+As you can see, in the headings, this is my first GutHub web page, to create it I just closely followed the instructions given in [this tutorial](https://www.youtube.com/watch?v=BA_c3bGQXlQ), I also benefited from this nice [article](https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1), finally, I wanted the links to open in new tabs and found this GitHub specific [solution](https://stackoverflow.com/questions/41915571/open-link-in-new-tab-with-github-markdown-using-target-blank) in everyone's friend stack**overflow**
 
-Needless to say, Physics is great fun, and so it is Data Science. Since the latter is so fashionable right now I will tell you that if you want to join the field, you will need to **seriously** study statistics, linear algebra and calculus. You will also will need lots and lots of coding in [Python](https://www.python.org/){:target="_blank" rel="noopener"} and [R](https://www.r-project.org/){:target="_blank" rel="noopener"}; you will also need to learn about SQL and NonSQL databases, for the former I strongly recommend [PostgreSQL](https://www.postgresql.org/){:target="_blank" rel="noopener"} and for the latter the open source version of [MongoDB](https://www.mongodb.com/try/download/community){:target="_blank" rel="noopener"}
+Needless to say, Physics is great fun, and so it is Data Science. Since the latter is so fashionable right now I will tell you that if you want to join the field, you will need to **seriously** study statistics, linear algebra and calculus. You will also will need lots and lots of coding in [Python](https://www.python.org/) and [R](https://www.r-project.org/); you will also need to learn about SQL and NonSQL databases, for the former I strongly recommend [PostgreSQL](https://www.postgresql.org/) and for the latter the open source version of [MongoDB](https://www.mongodb.com/try/download/community)
 
 Well, I have just began, and did not think to much about content, while I do, I present you with some of my teaching repos and some  images. 
 
-* [Ondas y Óptica](https://github.com/mario-i-caicedo-ai/Ondas-y-Optica){:target="_blank" rel="noopener"}
+* [Ondas y Óptica](https://github.com/mario-i-caicedo-ai/Ondas-y-Optica)
 
-* [Relatividad Especial](https://github.com/mario-i-caicedo-ai/Relatividad){:target="_blank" rel="noopener"}
+* [Relatividad Especial](https://github.com/mario-i-caicedo-ai/Relatividad)
 
-* [Introducción al Aprendizaje Automático](https://github.com/mario-i-caicedo-ai/Aprendizaje-Automatico-Machine-Learning-){:target="_blank" rel="noopener"}
+* [Introducción al Aprendizaje Automático](https://github.com/mario-i-caicedo-ai/Aprendizaje-Automatico-Machine-Learning-)
 
 
 <p align="center">
