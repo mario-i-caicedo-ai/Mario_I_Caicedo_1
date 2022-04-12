@@ -30,7 +30,7 @@ For more details see [Basic writing and formatting syntax](https://docs.github.c
 
 -->
 
-I am a venezuelan/colombian [Theoretical Physicist](https://scholar.google.co.ve/citations?user=ybqui-EAAAAJ&hl=en){:target="_blank" rel="noopener"} who, after 33 years in the academy at [Universidad Simón Bolívar](http://www.usb.ve/){:target="_blank" rel="noopener"} (USB), am making a soft transition to
+I am a venezuelan/colombian [Theoretical Physicist](https://scholar.google.co.ve/citations?user=ybqui-EAAAAJ&hl=en) who, after 33 years in the academy at [Universidad Simón Bolívar](http://www.usb.ve/) (USB), am making a soft transition to
 the fantastic world of Data Science.
 
 As you can see, in the headings, this is my first GutHub web page, to create it I just closely followed the instructions given in [this tutorial](https://www.youtube.com/watch?v=BA_c3bGQXlQ){:target="_blank" rel="noopener"}, I also benefited from this nice [article](https://towardsdatascience.com/how-to-create-a-free-github-pages-website-53743d7524e1), finally, I wanted the links to open in new tabs and found this GitHub specific [solution](https://stackoverflow.com/questions/41915571/open-link-in-new-tab-with-github-markdown-using-target-blank){:target="_blank" rel="noopener"} in everyone's friend stack**overflow**
