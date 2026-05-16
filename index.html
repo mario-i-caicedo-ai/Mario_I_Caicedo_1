@@ -308,3 +308,231 @@
     </style>
 </head>
 <body>
+
+    <div class="container">
+        
+        <header>
+            <div class="logo-container">
+                <img src="logo.png" alt="PMC Logo" class="logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                <div class="logo-placeholder" style="display:none;">PMC</div>
+            </div>
+
+            <h1>Mario I. Caicedo, PhD</h1>
+            <h2>Founder of Physics, Math &amp; Coffee</h2>
+            
+            <div class="quote-box">
+                "Physics is not about memorizing equations; it is about training the mind to see the underlying structure of the universe."
+            </div>
+
+            <div class="social-container">
+                <a href="https://www.youtube.com/@PhysicsMathCoffee" class="social-btn youtube" target="_blank">
+                    📺 YouTube Channel
+                </a>
+                <a href="https://www.instagram.com/physicsmathcoffee" class="social-btn instagram" target="_blank">
+                    📸 Instagram Profile
+                </a>
+            </div>
+        </header>
+
+        <div class="profile-grid">
+            
+            <div class="main-narrative">
+                <p>
+                    Welcome. I am Mario I. Caicedo, a PhD physicist, educator, and the founder of <strong>Physics, Math &amp; Coffee</strong>. After more than 30 years in academic research and university leadership, my mission today is focused on breaking down complexity, community teaching, and building interactive tools that bring mathematical physics to life.
+                </p>
+                <p>
+                    My path started in pure research physics, diving deep into the mathematical foundations of Field Theory. For decades, I served as a Full Professor, Department Head, and Program Coordinator at Universidad Simon Bolivar in Caracas, Venezuela, helping shape academic physics curricula.
+                </p>
+                <p>
+                    However, true understanding doesn't belong hidden behind heavy academic walls. It belongs where the spark of curiosity is ignited. This realization led to the birth of <strong>Physics, Math &amp; Coffee</strong>—a space designed to bridge the gap between rigorous mathematical physics and intuitive, visual logic. Today, as an instructor at Houston City College, and at Lone Star College CyFair and an independent mentor, my focus is entirely on training students to <em>reason</em> rather than just calculate, supporting diverse backgrounds in mastering the language of science.
+                </p>
+            </div>
+
+            <div class="sidebar-info">
+                <h4>Current Operations</h4>
+                <ul>
+                    <li>💻 <strong>Simulation Hub:</strong> Crafting real-time JavaScript vector engines to make visual physics accessible on any device.</li>
+                    <li>🤖 <strong>AI Verification:</strong> Applying STEM expertise to verify, stress-test, and improve advanced artificial intelligence models.</li>
+                    <li>🏫 <strong>Academic Focus:</strong> Faculty member at Houston City College and Lone Star College CyFair, specialized in structural reasoning.</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="lab-section">
+            <h3>The Interactive Simulation Hub</h3>
+            <div class="subtitle">Module 01: Uniformly Accelerated Circular Motion (UACM)</div>
+
+            <div class="lab-layout">
+                <div class="canvas-container">
+                    <canvas id="simCanvas" width="550" height="550"></canvas>
+                </div>
+
+                <div class="panel-sidebar">
+                    <div class="explanation-zone">
+                        <h4>Physics Breakdown</h4>
+                        
+                        <div class="vector-item">
+                            <div class="vector-title" style="color: var(--accent-cyan);">■ Tangential Velocity (v)</div>
+                            This vector is always tangent to the trajectory, pointing in the direction of motion. Its magnitude increases linearly over time (v = R * omega). Notice how the cyan arrow stretches as the particle speeds up.
+                        </div>
+
+                        <div class="vector-item">
+                            <div class="vector-title" style="color: var(--accent-magenta);">■ Tangential Acceleration (a_t)</div>
+                            This vector changes the <em>speed</em> of the particle. Because angular acceleration is constant, its magnitude remains strictly constant (a_t = R * alpha). Shifted outward slightly just for visual clarity.
+                        </div>
+
+                        <div class="vector-item">
+                            <div class="vector-title" style="color: var(--accent-green);">■ Centripetal Acceleration (a_c)</div>
+                            This vector points directly toward the center. Its sole purpose is to continuously change the <em>direction</em> of the velocity to maintain the circular path. Its magnitude grows quadratically (a_c = R * omega^2). Watch it explode in size during the second turn!
+                        </div>
+                    </div>
+
+                    <div class="controls">
+                        <button id="resetBtn">Launch Simulation</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            The Argo Navigation Laboratory &bull; Driven by Physics, Math &amp; Coffee
+        </footer>
+
+    </div>
+
+    <script>
+        const canvas = document.getElementById('simCanvas');
+        const ctx = canvas.getContext('2d');
+        const resetBtn = document.getElementById('resetBtn');
+
+        const cx = canvas.width / 2;
+        const cy = canvas.height / 2;
+        const R = 160; 
+
+        const alpha = 0.5; 
+        const thetaFinal = 4 * Math.PI; 
+        const tFinal = Math.sqrt(2 * thetaFinal / alpha); 
+
+        const scaleV = 45;   
+        const scaleAt = 70;  
+        const scaleAc = 4.5; 
+        const shiftR = 15;   
+
+        let startTime = null;
+        let animationFrameId = null;
+        let isRunning = false;
+
+        function drawArrow(x0, y0, x1, y1, color, lineWidth = 2.5) {
+            const headLength = 10;
+            const dx = x1 - x0;
+            const dy = y1 - y0;
+            const angle = Math.atan2(dy, dx);
+
+            ctx.strokeStyle = color;
+            ctx.fillStyle = color;
+            ctx.lineWidth = lineWidth;
+
+            ctx.beginPath();
+            ctx.moveTo(x0, y0);
+            ctx.lineTo(x1, y1);
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.moveTo(x1, y1);
+            ctx.lineTo(x1 - headLength * Math.cos(angle - Math.PI / 6), y1 - headLength * Math.sin(angle - Math.PI / 6));
+            ctx.lineTo(x1 - headLength * Math.cos(angle + Math.PI / 6), y1 - headLength * Math.sin(angle + Math.PI / 6));
+            ctx.closePath();
+            ctx.fill();
+        }
+
+        function drawSystem() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            ctx.strokeStyle = '#22252a';
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.moveTo(0, cy); ctx.lineTo(canvas.width, cy);
+            ctx.moveTo(cx, 0); ctx.lineTo(cx, canvas.height);
+            ctx.stroke();
+
+            ctx.strokeStyle = '#3a3f47';
+            ctx.setLineDash([4, 4]);
+            ctx.beginPath();
+            ctx.arc(cx, cy, R, 0, 2 * Math.PI);
+            ctx.stroke();
+            ctx.setLineDash([]); 
+        }
+
+        function animate(timestamp) {
+            if (!startTime) startTime = timestamp;
+            let t = (timestamp - startTime) / 1000; 
+
+            if (t > tFinal) {
+                t = tFinal;
+                isRunning = false;
+            }
+
+            drawSystem();
+
+            const theta = 0.5 * alpha * (t * t);
+            const omega = alpha * t;
+
+            const x = cx + R * Math.cos(theta);
+            const y = cy - R * Math.sin(theta); 
+
+            const er_x = Math.cos(theta);
+            const er_y = -Math.sin(theta);
+            const etheta_x = -Math.sin(theta);
+            const etheta_y = -Math.cos(theta);
+
+            const vx = x + etheta_x * (omega * scaleV);
+            const vy = y + etheta_y * (omega * scaleV);
+            drawArrow(x, y, vx, vy, '#00e5ff');
+
+            const atx_origin = x + er_x * shiftR;
+            const aty_origin = y + er_y * shiftR;
+            const atx_end = atx_origin + etheta_x * (alpha * scaleAt);
+            const aty_end = aty_origin + etheta_y * (alpha * scaleAt);
+            drawArrow(atx_origin, aty_origin, atx_end, aty_end, '#ff00ff');
+
+            const ac_mag = omega * omega;
+            const acx = x - er_x * (ac_mag * scaleAc);
+            const acy = y - er_y * (ac_mag * scaleAc);
+            drawArrow(x, y, acx, acy, '#00e676');
+
+            ctx.fillStyle = '#ffffff';
+            ctx.beginPath();
+            ctx.arc(x, y, 6, 0, 2 * Math.PI);
+            ctx.fill();
+
+            ctx.fillStyle = '#64748b';
+            ctx.font = '12px monospace';
+            ctx.fillText(`Time: ${t.toFixed(2)}s`, 20, 30);
+            ctx.fillText(`Angle: ${(theta / Math.PI).toFixed(2)} pi rad`, 20, 50);
+
+            if (isRunning) {
+                animationFrameId = requestAnimationFrame(animate);
+            } else {
+                resetBtn.innerText = "Launch Simulation";
+            }
+        }
+
+        resetBtn.addEventListener('click', () => {
+            if (animationFrameId) {
+                cancelAnimationFrame(animationFrameId);
+            }
+            startTime = null;
+            isRunning = true;
+            resetBtn.innerText = "Running...";
+            animate(performance.now());
+        });
+
+        drawSystem();
+        ctx.fillStyle = '#ffffff';
+        ctx.beginPath();
+        ctx.arc(cx + R, cy, 6, 0, 2 * Math.PI);
+        ctx.fill();
+    </script>
+</body>
+</html>
