@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario I. Caicedo | Physics, Math &amp; Coffee</title>
+    <style>
+        :root {
+            --bg-main: #0f0f11;
+            --bg-card: #151518;
+            --border-color: #2d3748;
+            --text-main: #e2e8f0;
+            --text-muted: #94a3b8;
+            --accent-cyan: #00e5ff;
+            --accent-magenta: #ff00ff;
+            --accent-green: #00e676;
+            --accent-blue: #0ea5e9;
+        }
+
+        body {
+            margin: 0;
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            max-width: 1050px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* --- HERO SECTION --- */
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin: 0 0 10px 0;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            color: #f1f5f9;
+        }
+
+        header h2 {
+            font-size: 18px;
+            color: var(--accent-blue);
+            margin: 0 0 25px 0;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        .quote-box {
+            font-style: italic;
+            font-size: 16px;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 0 20px;
+            border-left: 3px solid var(--accent-blue);
+        }
+
+        /* --- TWO COLUMN CONTENT --- */
+        .profile-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        @media (max-width: 850px) {
+            .profile-grid {
+                grid-template-columns: 1fr;
+            }
+            .sidebar-info {
+                order: -1; /* Pone los datos rápidos arriba en móviles */
+            }
+        }
+
+        .main-narrative h3 {
+            font-size: 22px;
+            color: #f1f5f9;
+            margin-top: 0;
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        .main-narrative p {
+            font-size: 15.5px;
+            color: #cbd5e1;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .sidebar-info {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            align-self: start;
+        }
+
+        .sidebar-info h4 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 16px;
+            color: #f1f5f9;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .sidebar-info ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar-info li {
+            font-size: 14px;
+            margin-bottom: 12px;
+            color: #cbd5e1;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+
+        /* --- INTERACTIVE LAB SECTION --- */
+        .lab-section {
+            border-top: 1px solid var(--border-color);
+            padding-top: 50px;
+            margin-top: 40px;
+        }
+
+        .lab-section h3 {
+            font-size: 24px;
+            color: #f1f5f9;
+            margin-top: 0;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .lab-section .subtitle {
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 15px;
+            margin-bottom: 35px;
+        }
+
+        .lab-layout {
+            display: flex;
+            flex-direction: row;
