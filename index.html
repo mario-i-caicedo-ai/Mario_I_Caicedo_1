@@ -5,91 +5,244 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mario I. Caicedo | Physics, Math &amp; Coffee</title>
     <style>
+        :root {
+            --bg-main: #0f0f11;
+            --bg-card: #151518;
+            --border-color: #2d3748;
+            --text-main: #e2e8f0;
+            --text-muted: #94a3b8;
+            --accent-cyan: #00e5ff;
+            --accent-magenta: #ff00ff;
+            --accent-green: #00e676;
+            --accent-blue: #0ea5e9;
+        }
+
         body {
             margin: 0;
-            background-color: #0f0f11;
-            color: #e2e8f0;
+            background-color: var(--bg-main);
+            color: var(--text-main);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
+            padding: 0;
             box-sizing: border-box;
         }
+
         .container {
-            max-width: 750px;
-            background-color: #151518;
-            border: 1px solid #2d3748;
-            border-radius: 8px;
-            padding: 40px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+            max-width: 1050px;
+            margin: 0 auto;
+            padding: 40px 20px;
         }
+
+        /* --- HERO SECTION (PRESENTACIÓN) --- */
         header {
             text-align: center;
-            border-bottom: 1px solid #2d3748;
-            padding-bottom: 30px;
-            margin-bottom: 30px;
+            margin-bottom: 50px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 40px;
         }
-        h1 {
-            font-size: 32px;
+
+        header h1 {
+            font-size: 36px;
             margin: 0 0 10px 0;
+            font-weight: 700;
+            letter-spacing: 0.5px;
             color: #f1f5f9;
         }
-        h2 {
+
+        header h2 {
             font-size: 18px;
-            color: #0ea5e9;
-            margin: 0 0 20px 0;
+            color: var(--accent-blue);
+            margin: 0 0 25px 0;
             font-weight: 500;
+            letter-spacing: 0.5px;
         }
+
         .quote-box {
             font-style: italic;
-            color: #94a3b8;
-            padding-left: 15px;
-            border-left: 3px solid #0ea5e9;
+            font-size: 16px;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 0 20px;
+            border-left: 3px solid var(--accent-blue);
             text-align: left;
-            font-size: 15px;
         }
-        p {
+
+        /* --- CONTENIDO EN DOS COLUMNAS --- */
+        .profile-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        @media (max-width: 850px) {
+            .profile-grid {
+                grid-template-columns: 1fr;
+            }
+            .sidebar-info {
+                order: -1;
+            }
+        }
+
+        .main-narrative p {
             font-size: 16px;
             color: #cbd5e1;
-            text-align: justify;
             margin-bottom: 20px;
+            text-align: justify;
         }
-        .btn-container {
+
+        .sidebar-info {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 25px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            align-self: start;
+        }
+
+        .sidebar-info h4 {
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 16px;
+            color: #f1f5f9;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .sidebar-info ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar-info li {
+            font-size: 14px;
+            margin-bottom: 12px;
+            color: #cbd5e1;
+        }
+
+        /* --- SECCIÓN DEL SIMULADOR --- */
+        .lab-section {
+            border-top: 1px solid var(--border-color);
+            padding-top: 50px;
+            margin-top: 40px;
+        }
+
+        .lab-section h3 {
+            font-size: 24px;
+            color: #f1f5f9;
+            margin-top: 0;
+            margin-bottom: 10px;
             text-align: center;
-            margin-top: 35px;
         }
-        .btn-simulation {
-            background-color: #0ea5e9;
-            color: #0f0f11;
-            text-decoration: none;
-            padding: 12px 30px;
+
+        .lab-section .subtitle {
+            text-align: center;
+            color: var(--text-muted);
             font-size: 15px;
+            margin-bottom: 35px;
+        }
+
+        .lab-layout {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 30px;
+        }
+
+        .canvas-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        canvas {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+            border-radius: 6px;
+        }
+
+        .panel-sidebar {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 25px;
+            flex: 1;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            box-sizing: border-box;
+            height: 550px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .explanation-zone h4 {
+            font-size: 16px;
+            margin-top: 0;
+            margin-bottom: 15px;
+            color: #f1f5f9;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        .vector-item {
+            margin-bottom: 15px;
+            font-size: 13px;
+            line-height: 1.4;
+            color: #cbd5e1;
+        }
+
+        .vector-title {
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+
+        .controls button {
+            background-color: var(--accent-blue);
+            color: var(--bg-main);
+            border: none;
+            padding: 12px 24px;
+            font-size: 14px;
             font-weight: bold;
             border-radius: 4px;
-            display: inline-block;
+            cursor: pointer;
             transition: all 0.2s ease;
+            width: 100%;
             box-shadow: 0 4px 12px rgba(14, 165, 233, 0.2);
         }
-        .btn-simulation:hover {
+
+        .controls button:hover {
             background-color: #38bdf8;
-            box-shadow: 0 4px 160px rgba(56, 189, 248, 0.4);
+            box-shadow: 0 4px 16px rgba(56, 189, 248, 0.4);
         }
+
+        @media (max-width: 950px) {
+            .lab-layout {
+                flex-direction: column;
+                align-items: center;
+            }
+            .panel-sidebar {
+                height: auto;
+                width: 550px;
+            }
+        }
+
         footer {
             text-align: center;
-            margin-top: 40px;
+            margin-top: 60px;
             padding-top: 20px;
-            border-top: 1px solid #2d3748;
+            border-top: 1px solid var(--border-color);
             font-size: 13px;
-            color: #94a3b8;
+            color: var(--text-muted);
         }
     </style>
 </head>
 <body>
 
     <div class="container">
+        
         <header>
             <h1>Mario I. Caicedo, PhD</h1>
             <h2>Founder of Physics, Math &amp; Coffee</h2>
@@ -98,26 +251,35 @@
             </div>
         </header>
 
-        <div class="content">
-            <p>
-                Welcome. I am Mario I. Caicedo, a PhD physicist, educator, and the founder of <strong>Physics, Math &amp; Coffee</strong>. After more than 30 years in academic research and university leadership, my mission today is focused on breaking down complexity, community teaching, and building interactive tools that bring mathematical physics to life.
-            </p>
-            <p>
-                My path started in pure research physics, diving deep into the mathematical foundations of relativity and classical mechanics. For decades, I served as a Full Professor, Department Head, and Program Coordinator, helping shape academic physics curricula.
-            </p>
-            <p>
-                However, true understanding doesn't belong hidden behind heavy academic walls. It belongs where the spark of curiosity is ignited. This realization led to the birth of <strong>Physics, Math &amp; Coffee</strong>—a space designed to bridge the gap between rigorous mathematical physics and intuitive, visual logic. Today, as an instructor at Houston City College and an independent mentor, my focus is entirely on training students to <em>reason</em> rather than just calculate, supporting diverse backgrounds in mastering the language of science.
-            </p>
+        <div class="profile-grid">
+            
+            <div class="main-narrative">
+                <p>
+                    Welcome. I am Mario I. Caicedo, a PhD physicist, educator, and the founder of <strong>Physics, Math &amp; Coffee</strong>. After more than 30 years in academic research and university leadership, my mission today is focused on breaking down complexity, community teaching, and building interactive tools that bring mathematical physics to life.
+                </p>
+                <p>
+                    My path started in pure research physics, diving deep into the mathematical foundations of relativity and classical mechanics. For decades, I served as a Full Professor, Department Head, and Program Coordinator, helping shape academic physics curricula.
+                </p>
+                <p>
+                    However, true understanding doesn't belong hidden behind heavy academic walls. It belongs where the spark of curiosity is ignited. This realization led to the birth of <strong>Physics, Math &amp; Coffee</strong>—a space designed to bridge the gap between rigorous mathematical physics and intuitive, visual logic. Today, as an instructor at Houston City College and an independent mentor, my focus is entirely on training students to <em>reason</em> rather than just calculate, supporting diverse backgrounds in mastering the language of science.
+                </p>
+            </div>
+
+            <div class="sidebar-info">
+                <h4>Current Operations</h4>
+                <ul>
+                    <li>💻 <strong>Simulation Hub:</strong> Crafting real-time JavaScript vector engines to make visual physics accessible on any device.</li>
+                    <li>🤖 <strong>AI Verification:</strong> Applying STEM expertise to verify, stress-test, and improve advanced artificial intelligence models.</li>
+                    <li>🏫 <strong>Academic Focus:</strong> Faculty member at Houston City College, specialized in structural reasoning.</li>
+                </ul>
+            </div>
+
         </div>
 
-        <div class="btn-container">
-            <a href="mcuv_vectors.html" class="btn-simulation">Launch UACM Vector Simulation →</a>
-        </div>
+        <div class="lab-section">
+            <h3>The Interactive Simulation Hub</h3>
+            <div class="subtitle">Module 01: Uniformly Accelerated Circular Motion (UACM)</div>
 
-        <footer>
-            The Argo Navigation Laboratory &bull; Driven by Physics, Math &amp; Coffee
-        </footer>
-    </div>
-
-</body>
-</html>
+            <div class="lab-layout">
+                <div class="canvas-container">
+                    <canvas id="simCanvas" width="
